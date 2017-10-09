@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/games/games",
+    "pages/tools/tools",
+    "pages/tanchishe/snake",
+    "pages/biaodan/biaodan",
+    "pages/meiti/meiti",
+    "pages/ditu/ditu",
+    "pages/module/module",
+    "pages/kefu/kefu",
+    "pages/apijk/apijk",
+    "pages/doubandianying/douban",
+    "pages/regeo/regeo",
+    "pages/weather/weather",
+    "pages/animation/animation",
+    "pages/poi/poi",
+    "pages/staticmap/staticmap",
+    "pages/navigation_car/navigation",
+    "pages/navigation_bus/navigation",
+    "pages/navigation_walk/navigation",
+    "pages/navigation_ride/navigation",
+    "pages/navigation_car_detail/navigation",
+    "pages/navigation_walk_detail/navigation",
+    "pages/navigation_ride_detail/navigation",
+    "pages/inputtips/input"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "微信小程序测试",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#6f6",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/imgs/home.png",
+        "selectedIconPath": "pages/imgs/home.png"
+      },
+      {
+        "pagePath": "pages/games/games",
+        "text": "小游戏",
+        "iconPath": "pages/imgs/game.png",
+        "selectedIconPath": "pages/imgs/game.png"
+      },
+      {
+        "pagePath": "pages/doubandianying/douban",
+        "text": "视频",
+        "iconPath": "pages/imgs/movie.png",
+        "selectedIconPath": "pages/imgs/movie.png"
+      }
+    ]
+  },
+  "debug": false
+}

@@ -1,0 +1,22 @@
+<scroll-view class="flex-wrap" scroll-y="true">
+	<view class="a" bindtap="tanchishe">
+		<image src="../imgs/snake.png" alt=""></image>
+		<text>贪吃蛇</text>
+	</view>
+	<view class="b">
+		<image src="../imgs/2048.png" alt=""></image>
+		<text>2048</text>
+	</view>
+	<view class="c">
+		<image src="../imgs/block.png" alt=""></image>
+		<text>俄罗斯方块</text>
+	</view>
+	<view class="d">
+		<image src="../imgs/bcbk.png" alt=""></image>
+		<text>别踩白块</text>
+	</view>
+	<view class="e">
+		<image src="../imgs/plane.png" alt=""></image>
+		<text>飞机大战</text>
+	</view>
+</scroll-view>

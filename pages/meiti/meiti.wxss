@@ -1,0 +1,5 @@
+.danmushuru{
+	height: 50rpx;
+	background-color: #ccc;
+	font-size: 40rpx;
+}

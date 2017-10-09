@@ -1,0 +1,11 @@
+.newclass{
+	opacity: .5;
+}
+
+.formclass{
+	margin: 20rpx;
+}
+
+.section__title{
+	background-color: #ccc;
+}

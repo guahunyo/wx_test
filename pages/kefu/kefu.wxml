@@ -1,0 +1,6 @@
+<contact-button 
+	type="default-light" 
+	size="20"
+	session-form="weapp"
+>		
+</contact-button>

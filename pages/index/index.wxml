@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+  <view class="usermotto">
+    <view class="dj" bindtap="dongH">测试动画</view>
+    <view class="dj" bindtap="keFu">测试客服会话</view>
+    <view class="dj" bindtap="apiJk">测试api接口</view>
+    <view class="dj" bindtap="meiT">测试媒体</view>
+    <view class="dj" bindtap="biaoD">测试交互反馈</view>
+    <view class="dj" bindtap="diT">测试地图</view>
+    <view class="dj" bindtap="lbt">测试轮播图</view>
+    <view class="user-motto">
+      <text>{{motto}}</text>
+    </view>
+  </view>
+  
+</view>

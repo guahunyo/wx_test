@@ -1,0 +1,1 @@
+<canvas canvas-id="firstCanvas" class="firstCanvas" bindtouchstart="touchstartFn" bindtouchmove="touchmoveFn" bindtouchend="touchendFn" disable-scroll="true"></canvas>

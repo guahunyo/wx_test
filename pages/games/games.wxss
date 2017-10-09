@@ -1,0 +1,61 @@
+.clearfix {
+  overflow: auto;
+  _height: 1%;
+}
+
+.flex-wrap {
+	/*display: -webkit-flex;*/
+	/*flex-direction: column;*/
+	width: 750rpx;
+	height: 1000rpx;
+	/*border: 1px solid pink;*/
+	/*overflow: scroll;*/
+}
+
+.flex-wrap view {
+	display: flex;
+	width: 750rpx;
+	height: 200rpx;
+	text-align: center;
+	align-items: center;
+	font-size: 40rpx;
+	/*line-height: 200r;px;*/
+	color: #000;
+}
+
+.flex-wrap view image {
+	/*flex:1;*/
+	margin-left: 200rpx;
+	width: 100rpx;
+	height: 100rpx;
+}
+
+.flex-wrap view text {
+	margin-left: 50rpx;
+	/*flex:1;*/
+}
+
+.a {
+	background-color: #999;
+	/*flex: 1;*/
+}
+
+.b {
+	background-color: #ccc;
+	/*flex: 1;*/
+}
+
+.c {
+	background-color: #999;
+	/*flex: 1;*/
+}
+
+.d {
+	background-color: #ccc;
+	/*flex: 1;*/
+}
+
+.e {
+	background-color: #999;
+	/*flex: 1;*/
+}

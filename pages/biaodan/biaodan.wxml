@@ -1,0 +1,58 @@
+<!-- <button bindtap="changeDisabled">启用按钮</button> -->
+
+<!-- <form bindsubmit="subFn" bindreset="resetFn">
+	<input class="formclass" type="text" name="txtName" placeholder="请输入用户名(最多十位)" placeholder-style="font-size:40rpx;" maxlength="10"/>
+	<input class="formclass" type="number" password="true" placeholder="请输入密码(最多十位)" placeholder-style="font-size:40rpx;" maxlength="10"/> -->
+	<!-- <checkbox-group class="formclass" bindchange="checkChange">
+		<label wx:for="{{country}}">
+			<checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+		</label>		
+	</checkbox-group> -->
+	<view class="section">
+	  <view class="section__title">普通选择器</view>
+	  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+	    <view class="picker">
+	      当前选择：{{array[index]}}
+	    </view>
+	  </picker>
+	</view>
+	<view class="section">
+	  <view class="section__title">多列选择器</view>
+	  <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+	    <view class="picker">
+	      当前选择：{{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}，{{multiArray[2][multiIndex[2]]}}
+	    </view>
+	  </picker>
+	</view>
+	<view class="section">
+	  <view class="section__title">时间选择器</view>
+	  <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
+	    <view class="picker">
+	      当前选择: {{time}}
+	    </view>
+	  </picker>
+	</view>
+
+	<view class="section">
+	  <view class="section__title">日期选择器</view>
+	  <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+	    <view class="picker">
+	      当前选择: {{date}}
+	    </view>
+	  </picker>
+	</view>
+	<view class="section">
+	  <view class="section__title">省市区选择器</view>
+	  <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+	    <view class="picker">
+	      当前选择：{{region[0]}}，{{region[1]}}，{{region[2]}}
+	    </view>
+	  </picker>
+	</view>
+	<!-- <button type="warn" plain="true" disabled="{{disabledBol}}" formType="submit" hover-class="newclass">提交</button>
+	<button type="primary" plain="true" formType="reset" hover-class="newclass" loading="true" disabled="{{disabledBol}}">重置</button>
+</form> -->
+<button bindtap="aaa">成功图</button>
+<button bindtap="bbb">加载图</button>
+<button bindtap="ccc">模态弹窗</button>
+<button bindtap="ddd">操作菜单</button>

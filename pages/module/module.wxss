@@ -1,0 +1,18 @@
+.swiper {
+  height: 600rpx;
+  width: 100%;
+}
+swiper-item {
+	text-align: center;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.wz {
+	text-align: center;
+}
+text {
+	color: #3c3;
+	font-size: 50rpx;
+}
